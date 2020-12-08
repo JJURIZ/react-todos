@@ -12,14 +12,24 @@ code {
     monospace;
 }
 
+header {
+  font-size: 50px;
+
+}
+
 li {
   font-size: 30px;
   width: 50vw;
   height: 50px;
   border: 1px solid red;
   margin: 2px 0 2px 0;
+  background-color: rgba(240, 248, 255, .50);
+  border-radius: 30px;
 }
 
+li:hover {
+  background-color: rgba(240, 248, 255, .95);
+}
 ul {
   display: flex;
   flex-direction: column;
