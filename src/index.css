@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, rgba(56, 61, 89, .5),rgba(242, 188, 87, .5));
 }
 
 code {
@@ -21,14 +22,14 @@ li {
   font-size: 30px;
   width: 50vw;
   height: 50px;
-  border: 1px solid red;
+  border: 1px solid #400101;
   margin: 2px 0 2px 0;
-  background-color: rgba(240, 248, 255, .50);
+  background-color:rgba(217, 118, 61, .5);
   border-radius: 30px;
 }
 
 li:hover {
-  background-color: rgba(240, 248, 255, .95);
+  background-color:rgba(217, 118, 61, .9);
 }
 ul {
   display: flex;
